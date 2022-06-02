@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navabar{
+    display: flex;
+    align-items: center;
+    
+    
+}
+nav{
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 50rem;
+   
+}
+nav ul li{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    position: relative;
+    
+}
+nav ul li a{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    margin: 1.2rem;
+    padding: 0rem;
+}
+.Logo{
+    color: whitesmoke;
+    font-size: 4rem;
+    text-align: center;
+   
+}
+span{
+    color: rgb(50, 18, 210);
+}
+
+
+li a:hover{
+    color: rgb(44, 31, 221);
+    font-weight: bold;
+    
+
+}

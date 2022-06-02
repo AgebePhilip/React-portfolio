@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Radio+Canada:wght@300;700&family=Yanone+Kaffeesatz:wght@400;500;600;700&display=swap');
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+.home{
+    display: flex;
+    
+    background-size: cover;
+    height: 100vh;
+    
+	background-position: center;
+	width: 100%;
+    background-image: url(../../images/Agebson7.png);
+    background-repeat: no-repeat;
+    background-size: 23rem;
+    margin-left: 5rem;
+    
+    
+    
+  
+   
+}
+.home-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-title{
+    display: flex;
+    
+}
+
+.home-header h2{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-style: normal;
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    
+}
+.home-header h3 {
+    color: orangered;
+    margin-left: 0rem;
+    font-size: 2rem;
+}
+.home-header h4{
+    color: white;
+    align-items: center;
+    text-align: justify;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.home-right{
+    flex: 1;
+    width: 100vh;
+   
+   
+}
+.home-typical{
+    margin-left: 0.1rem;
+    margin-top: 1.8rem;
+    color: white;
+    font-size: 1.3rem;
+    
+}
+
+.btn2{
+    margin-top: 3rem;
+    padding: 10px 15px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    line-height: 1.1;
+    margin-left: 3rem;
+}
+.btn4{
+    margin-top: 2rem;
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding:  13px 30px;
+    border-radius: 30px;
+    transition: 4.s;
+}
+
+.btn2:hover {
+    background-color: #1aa762;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .home-right{
+      
+      margin-left: 20rem;
+      margin-top: 4rem;
+      
+
+  }
+  .searchBar{
+      color: #1aa762;
+  }
+  .home-right img{
+     
+    border-radius: 20%;
+    padding: 5px;
+    width: 35%;
+    object-fit: cover;
+    position: absolute; 
+     height: 80%; 
+      object-fit: cover;
+     margin-top: 3rem;
+     -webkit-transition: all 2s ease;
+      -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+      transition: all 2s ease;
+      margin-left: 4rem;
+
+      
+  }
+  .home-right img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    transform: scale(1.08);
+    border: 1px solid rgb(194, 190, 212);
+    border-radius: 30%;
+  }
+  @media screen and (max-width:990px) {
+    .container{
+        grid-template-columns: repeat(2,1fr);
+        padding: 2rem 50px;
+    }
+    
+}
+@media screen and (max-width:650px) {
+    .container{
+        grid-template-columns: 1fr;
+        
+    }
+}
+ 
+  
